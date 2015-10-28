@@ -1,4 +1,6 @@
-﻿var TableRows = React.createClass({
+﻿
+
+var TableRows = React.createClass({
     render: function() {
         var tableRows = this.props.data.map(function (row) {
             return (
